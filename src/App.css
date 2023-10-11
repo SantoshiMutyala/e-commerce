@@ -1,0 +1,26 @@
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-item p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
